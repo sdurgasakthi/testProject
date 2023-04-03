@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56438" started-at="2023-04-03T14:32:54 IST" finished-at="2023-04-03T14:33:51 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56438" started-at="2023-04-03T14:32:54 IST" finished-at="2023-04-03T14:33:51 IST">
+      <class name="com.tests.TestCase1">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.tests.TestCase1@6b57696f]" name="SetUp" is-config="true" duration-ms="18196" started-at="2023-04-03T14:32:59 IST" finished-at="2023-04-03T14:33:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validateJob()[pri:0, instance:com.tests.TestCase1@6b57696f]" name="validateJob" duration-ms="33101" started-at="2023-04-03T14:33:18 IST" finished-at="2023-04-03T14:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateJob -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.tests.TestCase1@6b57696f]" name="TearDown" is-config="true" duration-ms="169" started-at="2023-04-03T14:33:51 IST" finished-at="2023-04-03T14:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.tests.TestCase1 -->
+      <class name="com.tests.TestCase2">
+        <test-method status="PASS" signature="validateGetCall()[pri:0, instance:com.tests.TestCase2@58c1670b]" name="validateGetCall" duration-ms="3316" started-at="2023-04-03T14:32:54 IST" finished-at="2023-04-03T14:32:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetCall -->
+        <test-method status="PASS" signature="ValidatePost()[pri:1, instance:com.tests.TestCase2@58c1670b]" name="ValidatePost" duration-ms="1625" started-at="2023-04-03T14:32:58 IST" finished-at="2023-04-03T14:32:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePost -->
+      </class> <!-- com.tests.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
